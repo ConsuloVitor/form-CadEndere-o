@@ -86,6 +86,17 @@ document.getElementById('cep').addEventListener('focusout', pesquisarcep);
 <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
 </p>  
 
+<h1 align="center">Como Utilizar</h1>
+
+**• Abra a página HTML em um navegador.**
+
+**• Digite um CEP válido no campo correspondente.**
+
+**• Ao sair do campo (clicar fora), o endereço deve ser preenchido automaticamente nos campos "Rua", "Bairro", "Cidade" e "Estado".**
+
+**• Se você inserir um CEP inválido ou se a API não retornar dados, você verá um alerta com a mensagem apropriada.**
+
+
 
 
 
