@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(0, 0, 0); /* Fundo preto */
+    height: 100vh; /* 100% da altura da viewport */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0;
+}
+
+/* Estilos do contêiner do formulário */
+.container {
+    background-color: white;
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 30px;
+    max-width: 600px; /* Largura máxima */
+    width: 100%; /* Largura total até a largura máxima */
+    
+    /* Sombra vermelha ao redor */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4); 
+}
+
+/* Título */
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Botão de envio */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Estilo quando o input é focado */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Margem nos campos para melhorar o espaçamento */
+.row .col-md-3, .row .col-md-5, .row .col-md-4 {
+    margin-bottom: 15px;
+}
